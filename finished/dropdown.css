@@ -1,0 +1,61 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Times New Roman', Times, serif ;
+  font-size: 16px;
+  background: rgb(23, 107, 135,0.9);
+
+}
+#container{
+  
+  background-color: rgb(180, 212, 255);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+h2{
+  margin: 25px;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+
+}
+#dropdown select{
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  text-transform: capitalize;
+  background-color: rgb(7, 28, 56,0.9);
+  color: aliceblue;
+ 
+
+  
+}
+#dropdown select:focus{
+  outline: none;
+}
+#sub input{
+  
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border-radius: 15px;
+    border:none;
+    background-color:rgb(23, 52, 88) ;
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%-50%);
+    width: 100px;
+  }
+
